@@ -47,18 +47,7 @@
 /*008EB5*/
 /*---------------------------------------*/
 
-.btn{
-    width: 150px;
-    height: 40px;
-    background-color: #56ABC2; 
-    color: white;
-    border: 2px solid white;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 24px;    
-}
+
 /*---------------------------------------*/
 
 h1{
@@ -158,3 +147,72 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #052D38;
 }
+
+/*SUSCRIPCIONES*/
+
+.container{
+    display: flex;
+    margin: 60px;
+    background-color: cadetblue;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    background-color: seashell;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 70%;
+    height: 210px;
+    padding-left: 30%;
+    padding-top: 20%;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 3;
+    color: black;
+    font-weight: bold;
+}
+
+.container .card .contenido .precio{
+    font-size: 200%;
+}
+
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+    background: cadetblue;
+    color: white;
+}
+
